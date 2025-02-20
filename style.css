@@ -1,0 +1,64 @@
+body{
+   margin: 0;
+   padding: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   min-width: 410px;
+}
+input{
+   width: 100%;
+   padding: 10px;
+   box-sizing: border-box;
+   font-size: 1rem;
+   border: 1px solid #5f9341;
+   border-radius: 10px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+input:hover, input:focus{
+   outline: none;
+}
+button{
+   background: #5f9341;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+   margin-top: 4px;
+   font-weight: bold;
+   font-size: 1rem;
+}
+ul{
+   list-style-type: none;
+   margin-top: 20px;
+   padding: 0;
+}
+li{
+   margin-top: 5px;
+   display: grid;
+   grid-template-columns: 300px 100px;
+   box-sizing: border-box;
+   align-items: center;
+   padding: 2px 10px;
+}
+ul li:nth-child(odd) {
+   background-color: #eee9e9;
+}
+ul li a{
+   text-decoration: none;
+   color: #5f9341;
+   font-size: 1rem;
+   overflow: scroll;
+}
+.del{
+   margin-top: 0;
+   margin-left: 10px;
+   color: rgb(255, 255, 255);
+   font-size: 13px;
+   cursor: pointer;
+   background: #ff0000e6;
+   border: 2px solid #000;
+}
+.del:hover, .del:focus, .del:active{
+   background: #ff0000;
+   transform: scale(1.1);
+}
